@@ -15,8 +15,8 @@ public class testpto1 {
         System.out.println("Ingrese coordenadas x2 enter y luego y2 del segundo punto: ");
         x2 = scanner.nextDouble();
         y2 = scanner.nextDouble();
-        double s = p.getDistancia(x1, y1, x2, y2);
-        System.out.println("la distancia es " + s);
+        p.setDistancia(x1, y1, x2, y2);
+        System.out.println("la distancia es " + p.getDistancia());
         
         
     }
